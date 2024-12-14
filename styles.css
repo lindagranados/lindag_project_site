@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+/* IN GENERAL*/
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+h1 {
+    padding: 0px 20px;
+}
+
+/*FOR THE INDEX FILE*/
+.home {
+    background-color: rgb(4, 39, 59); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right,#253d2c,#3b5c44, #253d2c);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+    font-size: 400%;
+}
+
+.home-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.home-button:hover {
+    background-color: white;
+    color: rgb(100, 151, 176);
+}
+
+/*FOR THE main_menu FILE*/
+#menu {
+    border-collapse: collapse;
+    width: 100%;
+    height: 593px;
+    background-color: rgb(4, 39, 59); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right,#253d2c,#3b5c44, #253d2c);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#table-title {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.explore {
+    width: 80%;
+    text-align: center;
+    margin: 20px 0px 0px;
+    color: whitesmoke;
+    font-size: 300%
+}
+
+#arrow {
+    height: 100px;
+    margin-top: -50px;
+}
+
+#project-access {
+    text-align: center;
+    width: 50%
+}
+
+#project-links {
+    list-style: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+#project-links a:hover {
+    color: whitesmoke;
+    border-radius: 20px;
+    background-color: #133014;
+    padding: 5px 10px;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+/*FOR html_CSS, python, java FILES*/
+.banner_Background {
+    background-image: linear-gradient(to bottom right,#253d2c,#3b5c44, #253d2c);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+
+.page_title {
+    font-size: 500%;
+    margin-top: 0px;
+}
+
+/*FOR THE html_CSS FILE*/
+.projects_HTML_CSS {
+    padding: 10px;
+}
+
+.p1 {
+    padding: 10px 20px;
+    background-color: #507050;
+}
+
+.screenshot {
+    height: 200px;
+    border: 3px solid black;
+}
+
+.des1 {
+    text-align: left;
+    padding: 20px 20px;
+    color: white;
+}
+
+/*FOR BOTH python & java FILES*/
+.projects_python, .projects_java {
+    padding: 10px 20px;
+    margin-bottom: 97px;
+}
+
+/*FOR EVERY OTHER PAGE HEADER*/
+
+/*Navbar*/
+header nav {
+    display: flex;
+    justify-content: right;
+    padding: 12px 20px 0px 0px;
+}
+
+a[href*='html_CSS'],
+a[href*='python'],
+a[href*='java'],
+a[href*='index'] {
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none; 
+}
+
+header nav a:hover {
+    background-color: #133014;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+header nav a:active {
+    color: #caedcb;
+    background-color: #133014;
+    border-radius: 15px;
+    text-decoration: underline;
+}
+
+/* End of Headers*/
+
+/*Footers*/
+footer {
+    text-align: left;
+    padding: 20px;
+    background-color: #0b180d;
+    color: whitesmoke;  
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0px;
+}
+
+footer li {
+    margin: 10px 0px;
+}
+
+a[href*='python'],
+a[href*='java'],
+a[href*='html'],
+a[href*='css'] {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: transparent;
+    color: #caedcb;
+    text-decoration: underline;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* END OF THE FOOTERS */
+
+/* NAV FOR BOTH main_menu file & footer section*/
+nav ul {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+nav li {
+    list-style: none;
+    margin: 10px 0px;
+}
