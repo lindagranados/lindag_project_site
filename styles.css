@@ -135,8 +135,8 @@ h1 {
 
 /*FOR BOTH python & java FILES*/
 .projects_python, .projects_java {
-    padding: 20px 50px;
-    margin-bottom: 97px;
+    padding: 10px 20px;
+    margin-bottom: 100px;
 }
 
 /*FOR EVERY OTHER PAGE HEADER*/
